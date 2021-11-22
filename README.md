@@ -24,7 +24,7 @@ From this table, I created a line chart to better visualize the results.  It loo
 
 The purpose of this portion of the analysis was to visualize campaign outcomes in reference to their goals.  To do this, I utilized the COUNTIFS() function to create a table detailing the number of successful, failed, and canceled Kickstarter play campaigns as well as the percentages for each based on the funding goal amount.  The amounts were further separated by funding goal intervals of $5,000, with the lower range as less than $1,000 and upper range as more than $50,000.  The COUNTIFS() function therefore had three to four criteria, dependent on the specified funding goal interval.  For example, in order to find the number of successful play campaigns with a funding goal of less than $1,000, the formula was the 'following:' =COUNTIFS(Kickstarter!D:D, "<1000", Kickstarter!F:F, "successful", Kickstarter!R:R, "plays").  Although the "plays" criteria never changed, the goal amounts corresponding to column D and the outcomes corresponding to column F changed based on the goal interval or outcome being specified.  Then, I populated the total column utilizing the SUM() function.  Finally, I found the percentages by simply dividing each amount by the total.  Below is the resulting table.
 
-![This is an image](https://github.com/amacancio/Kickstarter-analysis/issues/2)
+![This is an image](https://github.com/amacancio/Kickstarter-analysis/blob/main/Resources/Outcome%20Breakdown%20by%20Goal%20Interval.png)
 
 From this table, I created a line chart using only the percentages to visualize the results.  It looked as follows:
 
