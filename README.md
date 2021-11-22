@@ -28,7 +28,7 @@ The purpose of this portion of the analysis was to visualize campaign outcomes i
 
 From this table, I created a line chart using only the percentages to visualize the results.  It looked as follows:
 
-![This is an image](https://github.com/amacancio/Kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
+![This is an image](https://github.com/amacancio/Kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
