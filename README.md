@@ -14,7 +14,7 @@ The purpose of the analysis was to know how different campaigns fared in relatio
 
 The purpose of this portion of the analysis was to visualize campaign outcomes in reference to their launch dates.  To do this, I first used the YEAR() function on the column labeled "Date Created Conver." to extract only the year from the dates in that column.  Then, I created a pivot table using the data in the Kickstarter worksheet in a new worksheet labeled "Theater Outcomes by Launch Date."  This purpose of the table was to show the outcomes of theater Kickstarters separated by month.  The way to do this was to place "Parent Category" and "Years" under the filters section, "Outcomes" under the columns section, "Date Created Conver" under the rows section, and "Count of Outcomes" under the values section.  The resulting table looked as follows:
 
-![This is an image](https://github.com/amacancio/Kickstarter-analysis/issues/1#issue-1059514928)
+![This is an image](https://github.com/amacancio/Kickstarter-analysis/blob/main/Resources/Theater%20Outcomes%20by%20Launch%20Date%20Table.png)
 
 From this table, I created a line chart to better visualize the results.  It looked as follows:
 
